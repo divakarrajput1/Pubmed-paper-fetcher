@@ -4,13 +4,13 @@ Code Organization
 The project is organized as follows:
 
 pubmed-paper-fetcher/
-├── pubmed_fetcher/              # Module for fetching and processing papers
-│   ├── __init__.py              # Makes pubmed_fetcher a Python package
-│   └── fetcher.py               # Contains functions to fetch, filter, and generate CSV
-├── get_papers_list.py           # Command-line interface for the program
-├── README.md                    # Project documentation
-├── pyproject.toml               # Poetry configuration file
-└── .git/                        # Git version control (hidden folder)
+├── pubmed_fetcher/              
+│   ├── __init__.py              
+│   └── fetcher.py              
+├── get_papers_list.py          
+├── README.md                    
+├── pyproject.toml               
+└── .git/                        
 
 # Installation
     (i) Prerequisites
@@ -27,7 +27,7 @@ pubmed-paper-fetcher/
 # Usage
  ## 1. Fetch papers using a PubMed query:
         poetry run get_papers_list "cancer AND 2023" -f output.csv
- ### Command-line Options
+ ## 2. Command-line Options
             query: The PubMed query string (required).
             -d or --debug: Enable debug mode to print additional information.
             -f or --file: Specify the output CSV file. If not provided, results are printed to the console.
