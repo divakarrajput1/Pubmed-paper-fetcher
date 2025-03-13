@@ -2,6 +2,7 @@
 This Python program fetches research papers from PubMed based on a user-specified query. It identifies papers with at least one author affiliated with a pharmaceutical or biotech company and returns the results as a CSV file.
 Code Organization
 The project is organized as follows:
+
 pubmed-paper-fetcher/
 ├── pubmed_fetcher/              # Module for fetching and processing papers
 │   ├── __init__.py              # Makes pubmed_fetcher a Python package
@@ -24,9 +25,9 @@ pubmed-paper-fetcher/
     poetry install
 
 # Usage
-     ## 1. Fetch papers using a PubMed query:
+ ## 1. Fetch papers using a PubMed query:
         poetry run get_papers_list "cancer AND 2023" -f output.csv
-     ## Command-line Options
+ ### Command-line Options
             query: The PubMed query string (required).
             -d or --debug: Enable debug mode to print additional information.
             -f or --file: Specify the output CSV file. If not provided, results are printed to the console.
@@ -47,7 +48,7 @@ pubmed-paper-fetcher/
       (i) Biopython: Used to interact with the PubMed API.
       (ii) argparse: Used to handle command-line arguments.
       (iii) Poetry: Used for dependency management and packaging.
-    ## External Tools
+   ## External Tools
       (i) PubMed API: Used to fetch research papers.
       (ii) Git: Used for version control.
       (iii) GitHub: Hosts the repository.
