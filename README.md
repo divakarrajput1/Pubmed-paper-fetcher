@@ -3,7 +3,7 @@ This Python program fetches research papers from PubMed based on a user-specifie
 Code Organization
 The project is organized as follows:
 
-pubmed-paper-fetcher/
+pubmed-paper-fetcher/                                                                                                                                                  
 ├── pubmed_fetcher/              
 │   ├── __init__.py              
 │   └── fetcher.py              
