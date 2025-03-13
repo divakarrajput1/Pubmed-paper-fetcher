@@ -13,15 +13,16 @@ pubmed-paper-fetcher/
 └── .git/                        
 
 # Installation
-    (i) Prerequisites
-    (ii) Python 3.8 or higher
+## Prerequisites
+    (i) Python 3.8 or higher
+    (ii) Poetry for dependency management
 
 
-# Steps
-   ## 1. Clone the Repository
+## Steps
+   ### 1. Clone the Repository
     git clone https://github.com/your-username/pubmed-paper-fetcher.git
     cd pubmed-paper-fetcher
-   ## 2. Install Dependencies
+   ### 2. Install Dependencies
     poetry install
 
 # Usage
