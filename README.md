@@ -58,12 +58,10 @@ pubmed-paper-fetcher/
 Running Tests
 To test the program, run it with different queries and verify the output:
 
-poetry run get_papers_list "diabetes AND 2023" -f diabetes_papers.csv
+poetry run get_papers_list "diabetes AND 2023" -f diabetes_papers.csv          
 Debugging: Enable debug mode to see additional information:
 
 poetry run get_papers_list "cancer AND 2023" -d
-# Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
 # License
 This project is licensed under the MIT License. See the LICENSE file for details.
