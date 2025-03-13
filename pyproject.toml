@@ -1,0 +1,10 @@
+[project]
+name = "pubmed_fetcher"
+version = "0.1.0"
+description = "A tool to fetch research papers from PubMed"
+authors = [{ name = "Divakar Rajput", email = "divakarrajput5818@gmail.com" }]
+readme = "README.md"
+dependencies = ["requests", "biopython"]  # Add necessary dependencies
+
+[tool.poetry]
+packages = [{include = "pubmed_fetcher"}]
